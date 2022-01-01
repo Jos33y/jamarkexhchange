@@ -1,3 +1,71 @@
-h2{
-    color: blue;
+.Nav{
+    background: #e06002;
+    padding:  0 10px;
 }
+
+.Nav ul{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 0 0 0;
+    margin-left: 10%;
+}
+.Nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.Nav ul li{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+.Nav ul li .Address{
+    text-transform: none;
+    font-weight: 400;
+    font-size: 13px;
+}
+.Nav .fas.fa-circle{
+    color: #00FF00;
+    font-size: 10px;
+}
+.Nav .fab.fa-bitcoin{
+    font-size: 15px;
+    color: #ffe9d9;
+}
+.Nav .fab.fa-whatsapp{
+    font-size: 15px;
+    color: #ffe9d9;
+}.Nav .fas.fa-map-marker-alt{
+     font-size: 15px;
+     color: #faf7f0;
+ }
+ .Nav .fas.fa-chevron-right{
+     font-size: 15px;
+     color: #ffe9d9;
+ }
+.Navbar{
+    color: #e06002;
+    background-color: #ffffff;
+    padding: 20px;
+}
+ .Navbar .img-fluid{
+     width: 5%;
+     margin-right: 10px;
+ }
+ .Navbar .Brand{
+     color: #f3af1e;
+     font-weight: 800;
+     font-size: 22px;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+ }
+ .Navbar .Brand .Exchange{
+     color: #f67906;
+ }
+ .Navbar .Nav-Link{
+     color: #f67906 !important;
+     font-weight: 700;
+     font-size: 17px;
+
+ }

@@ -1,9 +1,31 @@
 import './styles/Home.css'
-import {Button, Col, Container, Row} from "react-bootstrap";
+import {Button, Col, Container, Form, Row, Table} from "react-bootstrap";
+import ImageOne from './assets/images/wavy-tech.png';
+import ImageTwo from  './assets/images/mario.png'
+import React from "react";
 
 const Home = () =>  {
     return (
         <>
+            <div className="Hero">
+                <Row>
+                    <Col md={7}>
+
+                    </Col>
+                    <Col md={5} className="Text">
+                        <h6>
+                            Buy and Sell CryptoCurrency at the best price, no hidden fees.
+                            Premier service to buy bitcoin instantly.
+                        </h6>
+                        <h5>Jamark <span className="Exchange">Exchange</span></h5>
+
+                        <Button className="btn btn-lg btn-success">
+                            Open Live Chat to trade instantly
+                        </Button>
+                    </Col>
+
+                </Row>
+            </div>
             <div className="Section-one">
                 <Container>
                 <h3 className="Head-text">Simple. Secure. Seamless.</h3>
@@ -39,47 +61,123 @@ const Home = () =>  {
             <div className="Section-two">
                 <Row>
                     <Col md={9}>
-                        <h5>Do you know Jamark Exchange has traded over $100,000 worth of bitcoin in 2021?</h5>
+                        <h5>Do you know Jamark Exchange is one of the top crypto exchange in 2021?</h5>
                     </Col>
                     <Col md={3}>
-                        <a href="https://" className="btn btn-md btn-primary"> trade with us</a>
+                        <a href="https://" className="btn btn-md btn-primary"> Trade with Us <i
+                            className="fas fa-arrow-right"></i></a>
                     </Col>
                 </Row>
             </div>
 
             <div className="Section-three">
-                <Row>
-                    <Col md={6}>
-                        <p>
-                            At Jamark exchange, we are the most reliable, fastest
-                            and cheapest e-currency exchanger since 2009 (buy/sell perfectmoney, webmoney, bitcoin, in nigeria).
-                        </p>
-                        <p>
-                            We are a perfect money exchanger of repute and we pride ourselves to
-                            instantly fund perfect money account for both small and large orders efficiently.
-                            We do not delay, we fund your perfect money accounts instantly.
-                        </p>
+                <Container>
+                    <Row>
+                        <Col md={5}>
+                            <h4>About Jamark Exchange</h4>
+                            <p>
+                                At Jamark exchange, we are the most reliable, fastest
+                                and cheapest e-currency exchanger since 2009 (buy/sell perfectmoney, webmoney, bitcoin, in nigeria).
+                            </p>
+                            <p>
+                                We are a perfect money exchanger of repute and we pride ourselves to
+                                instantly fund perfect money account for both small and large orders efficiently.
+                                We do not delay, we fund your perfect money accounts instantly.
+                            </p>
 
-                        <a href="https://" className="btn btn-md btn-success">
-                            Get Started
-                        </a>
+                            <a href="https://" className="btn btn-md btn-success">
+                                Get Started <i
+                                className="fas fa-arrow-right"></i>
+                            </a>
 
-                    </Col>
-                    <Col md={6}>
+                        </Col>
+                        <Col md={6}>
 
-                    </Col>
-                </Row>
+                            <img
+                                src={ImageOne}
+                                className="img-fluid"
+                                alt="About Jamark"
+                            />
+
+                        </Col>
+                    </Row>
+
+                </Container>
+
             </div>
 
-            <div className="section-four">
-                <Row>
-                    <Col md={6}>
-                        <h3>Rate</h3>
-                    </Col>
-                    <Col md={6}>
-                        <h3>Contact US</h3>
-                    </Col>
-                </Row>
+            <div className="Section-four">
+                <Container>
+                    <Row>
+                        <Col md={6}>
+                            <h3>Rate</h3>
+
+                            <div className="Table">
+                                <Table className="table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th>Service</th>
+                                        <th>Rate</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td className="Strong"> Bitcoin </td>
+                                        <td className="Soft"> 519/$</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="Strong"> Ethereum </td>
+                                        <td className="Soft"> 519/$</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="Strong"> Gift Cards </td>
+                                        <td className="Soft"> Depends</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="Strong"> Perfect Money</td>
+                                        <td className="Soft"> 450/$</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="Strong"> Skrill </td>
+                                        <td className="Soft"> 300/$</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td className="Strong"> All Crypto Currencies </td>
+                                        <td className="Soft"> 510/$</td>
+                                    </tr>
+                                    </tbody>
+                                </Table>
+                            </div>
+                        </Col>
+                        <Col md={6}>
+                            <h3>Contact US</h3>
+                            <div className="Form">
+                                <Form method="POST" action="#">
+                                    <div className="form-group">
+                                        <label for="fullname">Full Name</label>
+                                        <input type="text" className="form-control" placeholder="Full Name"/>
+                                    </div>
+                                    <div className="form-group">
+                                        <label htmlFor="subject">Subject</label>
+                                        <input type="text" className="form-control" placeholder="Subject of the Message"/>
+                                    </div>
+                                    <div className="form-group">
+                                        <label htmlFor="message">Message</label>
+                                        <textarea name="message" id="msg" cols="30" rows="5" className="form-control">
+
+                                        </textarea>
+                                    </div>
+
+                                    <div className="form-group text-center">
+                                        <Button type="submit" className="btn btn-md btn-success">Send Message</Button>
+                                    </div>
+                                </Form>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+
             </div>
 
             <div className="Section-five">
@@ -87,15 +185,58 @@ const Home = () =>  {
                     <h4>Words on the Street</h4>
                     <Row>
                         <Col md={4}>
-                            one
+                            <div className="Testimony">
+                                <div className="Testimony-text">
+                                    <p>This website is very fast and reliable for buying bitcoins. I received my money in less than 3 minutes after sending them my coins. Thanks Boss!!!.
+                                        </p>
+                                </div>
+                                <div className="Profile">
+                                    <Row>
+                                        <Col md={3}>
+                                            <img src={ImageTwo} alt="profile image" className="profile-img"/>
+                                        </Col>
+                                        <Col md={9}>
+                                            <h6>Donald Ericsson</h6>
+                                        </Col>
+                                    </Row>
+                                </div>
+                            </div>
                         </Col>
 
                         <Col md={4}>
-                            two
+                            <div className="Testimony">
+                                <div className="Testimony-text">
+                                    <p>This website is very fast and reliable for buying bitcoins. I received my money in less than 3 minutes after sending them my coins. Thanks Boss!!!.
+                                    </p>
+                                </div>                                <div className="Profile">
+                                    <Row>
+                                        <Col md={3}>
+                                            <img src={ImageTwo} alt="profile image" className="profile-img"/>
+                                        </Col>
+                                        <Col md={9}>
+                                            <h6>Donald Ericsson</h6>
+                                        </Col>
+                                    </Row>
+                                </div>
+                            </div>
                         </Col>
 
                         <Col md={4}>
-                            three
+                            <div className="Testimony">
+                                <div className="Testimony-text">
+                                    <p>This website is very fast and reliable for buying bitcoins. I received my money in less than 3 minutes after sending them my coins. Thanks Boss!!!.
+                                    </p>
+                                </div>                                <div className="Profile">
+                                    <Row>
+                                        <Col md={3}>
+                                            <img src={ImageTwo} alt="profile image" className="profile-img"/>
+                                        </Col>
+                                        <Col md={9}>
+                                            <h6>Donald Ericsson</h6>
+                                        </Col>
+                                    </Row>
+                                </div>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
