@@ -1,0 +1,32 @@
+.Footer{
+    padding: 10px 20px;
+    margin-top: 30px;
+    background: #222222;
+    color: #fff;
+}
+.socials{
+    text-align: center;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+    font-size: 14px;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+ul .fab{
+    font-size: 25px;
+}
+li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.Footer p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
