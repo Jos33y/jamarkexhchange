@@ -66,6 +66,11 @@
 .Box{
     padding: 20px;
 }
+.Box-im{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 30px;
+}
 .Box-header{
     font-size: 25px;
     font-weight: 700;
@@ -240,7 +245,7 @@
     font-size: 14px;
     font-weight: 400;
 }
-.Testimony .Profile .profile-img{
+.Testimony .Profile .Round-profile{
     width: 90%;
     border-radius: 50%;
     border: 2px solid #e06002;

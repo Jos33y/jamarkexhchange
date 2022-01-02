@@ -2,6 +2,9 @@ import './styles/Home.css'
 import {Button, Col, Container, Form, Row, Table} from "react-bootstrap";
 import ImageOne from './assets/images/wavy-tech.png';
 import ImageTwo from  './assets/images/mario.png'
+import ImageTrust from './assets/images/trusted.png'
+import ImageDelight from './assets/images/delightful.png'
+import ImageFriendly from './assets/images/friendly.jpg'
 import React from "react";
 
 const Home = () =>  {
@@ -33,6 +36,7 @@ const Home = () =>  {
                     <Row>
                         <Col md={4}>
                             <div className="Box">
+                                <img src={ImageTrust} alt="box-im" className="Box-im"/>
                             <h5 className="Box-header"> Trusted and Secure</h5>
                             <p className="Box-text">
                                 We store the vast majority of the digital assets in secure offline cold storage.
@@ -41,6 +45,7 @@ const Home = () =>  {
                         </Col>
                         <Col md={4}>
                             <div className="Box">
+                                <img src={ImageDelight} alt="box-im" className="Box-im"/>
                             <h5 className="Box-header"> Delightful Experience</h5>
                             <p className="Box-text">
                                 Our charting tools and simple order process will get you trading from day one.
@@ -49,6 +54,7 @@ const Home = () =>  {
                         </Col>
                         <Col md={4}>
                             <div className="Box">
+                                <img src={ImageFriendly} alt="box-im" className="Box-im"/>
                             <h5 className="Box-header"> Beginner Friendly</h5>
                             <p className="Box-text">
                                 Jamark Exchange offers an intuitive, beginner friendly interface and 24/7 support. No prior trading experience required.
@@ -193,7 +199,7 @@ const Home = () =>  {
                                 <div className="Profile">
                                     <Row>
                                         <Col md={3}>
-                                            <img src={ImageTwo} alt="profile image" className="profile-img"/>
+                                            <img src={ImageTwo} alt="profile" className="Round-profile"/>
                                         </Col>
                                         <Col md={9}>
                                             <h6>Donald Ericsson</h6>
@@ -211,7 +217,7 @@ const Home = () =>  {
                                 </div>                                <div className="Profile">
                                     <Row>
                                         <Col md={3}>
-                                            <img src={ImageTwo} alt="profile image" className="profile-img"/>
+                                            <img src={ImageTwo} alt="profile" className="Round-profile"/>
                                         </Col>
                                         <Col md={9}>
                                             <h6>Donald Ericsson</h6>
@@ -229,7 +235,7 @@ const Home = () =>  {
                                 </div>                                <div className="Profile">
                                     <Row>
                                         <Col md={3}>
-                                            <img src={ImageTwo} alt="profile image" className="profile-img"/>
+                                            <img src={ImageTwo} alt="profile" className="Round-profile"/>
                                         </Col>
                                         <Col md={9}>
                                             <h6>Donald Ericsson</h6>
