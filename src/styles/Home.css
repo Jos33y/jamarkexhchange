@@ -265,3 +265,15 @@
     letter-spacing: 1px;
     margin-bottom: 2%;
 }
+
+@media only screen and (max-width: 801px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (max-width: 376px) {
+
+}

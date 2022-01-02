@@ -5,6 +5,7 @@ import ImageTwo from  './assets/images/mario.png'
 import ImageTrust from './assets/images/trusted.png'
 import ImageDelight from './assets/images/delightful.png'
 import ImageFriendly from './assets/images/friendly.jpg'
+import VideoOne from './assets/images/jamark-video.mp4'
 import React from "react";
 
 const Home = () =>  {
@@ -31,8 +32,8 @@ const Home = () =>  {
             </div>
             <div className="Section-one">
                 <Container>
-                <h3 className="Head-text">Simple. Secure. Seamless.</h3>
-                <p className="Sub-text">It’s our mission to provide you with a delightful crypto trading experience!</p>
+                <h3 className="Head-text">Easy. Reliable. Consistent.</h3>
+                <p className="Sub-text">Jamark Exchange brings you trading with ease</p>
                     <Row>
                         <Col md={4}>
                             <div className="Box">
@@ -83,7 +84,7 @@ const Home = () =>  {
                             <h4>About Jamark Exchange</h4>
                             <p>
                                 At Jamark exchange, we are the most reliable, fastest
-                                and cheapest e-currency exchanger since 2009 (buy/sell perfectmoney, webmoney, bitcoin, in nigeria).
+                                and cheapest e-currency exchanger since 2018 (buy/sell perfectmoney, webmoney, bitcoin, in nigeria).
                             </p>
                             <p>
                                 We are a perfect money exchanger of repute and we pride ourselves to
@@ -205,20 +206,10 @@ const Home = () =>  {
                     <Row>
                         <Col md={4}>
                             <div className="Testimony">
-                                <div className="Testimony-text">
-                                    <p>This website is very fast and reliable for buying bitcoins. I received my money in less than 3 minutes after sending them my coins. Thanks Boss!!!.
-                                        </p>
-                                </div>
-                                <div className="Profile">
-                                    <Row>
-                                        <Col md={3}>
-                                            <img src={ImageTwo} alt="profile" className="Round-profile"/>
-                                        </Col>
-                                        <Col md={9}>
-                                            <h6>Donald Ericsson</h6>
-                                        </Col>
-                                    </Row>
-                                </div>
+                                <video width="100%" height="100%" preload="auto" controls>
+                                    <source src={VideoOne} type="video/mp4" />
+                                    Your browser does not support HTML5 video.
+                                </video>
                             </div>
                         </Col>
 
@@ -233,7 +224,7 @@ const Home = () =>  {
                                             <img src={ImageTwo} alt="profile" className="Round-profile"/>
                                         </Col>
                                         <Col md={9}>
-                                            <h6>Donald Ericsson</h6>
+                                            <h6>Jude Johnson</h6>
                                         </Col>
                                     </Row>
                                 </div>
@@ -241,21 +232,6 @@ const Home = () =>  {
                         </Col>
 
                         <Col md={4}>
-                            <div className="Testimony">
-                                <div className="Testimony-text">
-                                    <p>This website is very fast and reliable for buying bitcoins. I received my money in less than 3 minutes after sending them my coins. Thanks Boss!!!.
-                                    </p>
-                                </div>                                <div className="Profile">
-                                    <Row>
-                                        <Col md={3}>
-                                            <img src={ImageTwo} alt="profile" className="Round-profile"/>
-                                        </Col>
-                                        <Col md={9}>
-                                            <h6>Donald Ericsson</h6>
-                                        </Col>
-                                    </Row>
-                                </div>
-                            </div>
                         </Col>
                     </Row>
                 </Container>
