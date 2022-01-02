@@ -256,3 +256,12 @@
     margin-top: 15px;
     float: left;
 }
+
+.Section-live h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #e06002;
+    letter-spacing: 1px;
+    margin-bottom: 2%;
+}
