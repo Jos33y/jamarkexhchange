@@ -13,19 +13,21 @@ const Home = () =>  {
         <>
             <div className="Hero">
                 <Row>
-                    <Col md={7}>
+                    <Col lg={7}>
 
                     </Col>
-                    <Col md={5} className="Text">
-                        <h6>
-                            Buy and Sell CryptoCurrency at the best price, no hidden fees.
-                            Premier service to buy bitcoin instantly.
-                        </h6>
-                        <h5>Jamark <span className="Exchange">Exchange</span></h5>
+                    <Col lg={5} className="Text col-md-12">
+                        <div className="Float">
+                            <h6>
+                                Buy and Sell CryptoCurrency at the best price, no hidden fees.
+                                Premier service to buy bitcoin instantly.
+                            </h6>
+                            <h5>Jamark <span className="Exchange">Exchange</span></h5>
 
-                        <Button className="btn btn-lg btn-success">
-                            Open Live Chat to trade instantly
-                        </Button>
+                            <Button className="btn btn-lg btn-success">
+                                Open Live Chat to trade instantly
+                            </Button>
+                        </div>
                     </Col>
 
                 </Row>

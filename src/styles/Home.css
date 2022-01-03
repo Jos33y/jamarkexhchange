@@ -270,6 +270,57 @@
 }
 
 @media only screen and (max-width: 900px) {
+
+    .Hero{
+        padding: 20px;
+        background: #e06002;
+        margin-bottom: 5%;
+        background: url("../assets/images/bitcoin-hero.jpg") no-repeat;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        object-fit: cover;
+        color: #ffffff;
+
+    }
+    .Text{
+        padding: 30px 20px 30px 0px;
+        width: 100%;
+    }
+    .Float{
+        float: right;
+        clear: left;
+        width: 45%;
+    }
+    .Text h6{
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: justify;
+        line-height: 35px;
+        color: #fff;
+    }
+
+    .Text h5{
+        color: #fff;
+        font-weight: 800;
+        font-size: 32px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 30px 0;
+    }
+
+    .Text .btn{
+        font-size: 25px;
+        width: 120%;
+        padding: 10px 0;
+        margin: 5% 0;
+        position: relative;
+        right: 20%;
+    }
+
+
     .Head-text{
         font-size: 40px;
     }
@@ -461,6 +512,58 @@
 }
 
 @media only screen and (max-width: 601px) {
+
+    .Hero{
+        padding: 20px;
+        background: #e06002;
+        margin-bottom: 5%;
+        background: url("../assets/images/bitcoin-hero.jpg") no-repeat;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        object-fit: cover;
+        color: #ffffff;
+
+    }
+    .Text{
+        padding: 30px 20px 30px 0px;
+        width: 100%;
+    }
+    .Float{
+        float: none;
+        clear: none;
+        width: 100%;
+        text-align: center;
+
+    }
+    .Text h6{
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+        line-height: 35px;
+        color: #fff;
+    }
+
+    .Text h5{
+        color: #fff;
+        font-weight: 800;
+        font-size: 28px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 20px 0;
+    }
+
+    .Text .btn{
+        font-size: 18px;
+        width: 100%;
+        padding: 10px 0;
+        margin: 8% 0;
+        position: center;
+        right: 0;
+    }
+
     .Section-one{
         margin: 10% 0;
     }
@@ -635,6 +738,59 @@
 }
 
 @media only screen and (max-width: 385px) {
+
+    .Hero{
+        padding: 20px;
+        background: #e06002;
+        margin-bottom: 5%;
+        background: url("../assets/images/bitcoin-hero.jpg") no-repeat;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        object-fit: cover;
+        color: #ffffff;
+
+    }
+    .Text{
+        padding: 30px 20px 30px 0px;
+        width: 100%;
+    }
+    .Float{
+        float: none;
+        clear: none;
+        width: 100%;
+        text-align: center;
+
+    }
+    .Text h6{
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+        line-height: 35px;
+        color: #fff;
+    }
+
+    .Text h5{
+        color: #fff;
+        font-weight: 800;
+        font-size: 26px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 20px 0;
+    }
+
+    .Text .btn{
+        font-size: 18px;
+        width: 100%;
+        padding: 10px 0;
+        margin: 8% 0;
+        position: relative;
+        right: 0;
+    }
+
+
     .Section-one{
         margin: 10% 0;
     }
