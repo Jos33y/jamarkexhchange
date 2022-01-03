@@ -85,14 +85,15 @@ const Home = () =>  {
                         <Col md={5}>
                             <h4>About Jamark Exchange</h4>
                             <p>
-                                At Jamark exchange, we are the most reliable, fastest
-                                and cheapest e-currency exchanger since 2018 (buy/sell perfectmoney, webmoney, bitcoin, in nigeria).
+                                Jamark Exchange is the best and reliable trading platform, where we buy all cryptocurrencies (BTC, ETH, USDT, XRP, TRC, BNB) etc.
                             </p>
+
                             <p>
-                                We are a perfect money exchanger of repute and we pride ourselves to
-                                instantly fund perfect money account for both small and large orders efficiently.
-                                We do not delay, we fund your perfect money accounts instantly.
-                            </p>
+                                And all countries gift cards (STEAM, AMAZON, ITUNES, GOOGLE PLAY, APPLE, AMERICAN EXPRESS) etc.
+                                Make us your crypto and gift cards plugs (Bulk and Unit) </p>
+                                <p>
+                                    Trust us for fast payment. We’re available 24/7 for all your deals.
+                                </p>
 
                             <a href="https://" className="btn btn-md btn-success">
                                 Get Started <i
