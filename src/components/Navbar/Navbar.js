@@ -19,7 +19,7 @@ const Header = () => {
             <div>
                 <Navbar className="Navbar">
                     <Container>
-                        <Navbar.Brand href="#home" className="Brand">
+                        <Navbar.Brand href="/" className="Brand">
                             <img
                                 src={Logo}
                                 className="d-inline-block align-top img-fluid"
@@ -27,7 +27,7 @@ const Header = () => {
                             />
                             Jamark <span className="Exchange"> Exchange</span> </Navbar.Brand>
                         <Nav className="mr-auto">
-                            <Nav.Link className="Nav-Link" href="#features">Rates</Nav.Link>
+                            <Nav.Link className="Nav-Link" href="#rates">Rates</Nav.Link>
                         </Nav>
                     </Container>
                 </Navbar>

@@ -116,7 +116,7 @@ const Home = () =>  {
 
             </div>
 
-            <div className="Section-four">
+            <div className="Section-four" id="rates">
                 <Container>
                     <Row>
                         <Col md={6}>
