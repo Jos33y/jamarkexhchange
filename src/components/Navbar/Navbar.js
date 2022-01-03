@@ -28,7 +28,6 @@ const Header = () => {
                             Jamark <span className="Exchange"> Exchange</span> </Navbar.Brand>
                         <Nav className="mr-auto">
                             <Nav.Link className="Nav-Link" href="#features">Rates</Nav.Link>
-                            <Nav.Link className="Nav-Link" href="#pricing">Sell Bitcoins</Nav.Link>
                         </Nav>
                     </Container>
                 </Navbar>

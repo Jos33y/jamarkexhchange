@@ -69,3 +69,147 @@
      font-size: 17px;
 
  }
+
+@media only screen and (max-width: 900px) {
+
+    .Navbar .Brand{
+        font-size: 20px;
+    }
+    .Navbar .Nav-Link{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .Nav{
+        background: #e06002;
+        padding:  0 5px;
+    }
+
+    .Nav ul{
+        list-style: none;
+        display: inline-block;
+        padding: 10px 0 0 0;
+        margin-left: 5px;
+    }
+    .Nav ul li{
+        font-size: 12px;
+        font-weight: 600;
+        color: #fff;
+        padding: 0 5px;
+        text-transform: uppercase;
+    }
+    .Nav ul li .Address{
+        text-transform: none;
+        font-weight: 400;
+        font-size: 11px;
+    }
+    .Nav .fas.fa-circle{
+        color: #00FF00;
+        font-size: 7px;
+    }
+    .Nav .fab.fa-bitcoin{
+        font-size: 13px;
+        color: #ffe9d9;
+    }
+    .Nav .fab.fa-whatsapp{
+        font-size: 13px;
+        color: #ffe9d9;
+    }.Nav .fas.fa-map-marker-alt{
+         font-size: 13px;
+         color: #faf7f0;
+     }
+    .Nav .fas.fa-chevron-right{
+        font-size: 13px;
+        color: #ffe9d9;
+    }
+    .Navbar{
+        color: #e06002;
+        background-color: #ffffff;
+        padding: 15px 10px;
+    }
+    .Navbar .img-fluid{
+        width: 5%;
+        margin-right: 5px;
+
+    }
+    .Navbar .Brand{
+        font-size: 18px;
+    }
+    .Navbar .Brand .Exchange{
+        color: #f67906;
+    }
+    .Navbar .Nav-Link{
+        color: #f67906 !important;
+        font-weight: 700;
+        font-size: 14px;
+
+    }
+}
+
+@media only screen and (max-width: 385px) {
+
+    .Nav{
+        background: #e06002;
+        padding:  0 5px;
+    }
+
+    .Nav ul{
+        list-style: none;
+        display: inline-block;
+        padding: 10px 0 0 0;
+        margin-left: 5px;
+    }
+    .Nav ul li{
+        font-size: 11px;
+        font-weight: 600;
+        color: #fff;
+        padding: 0 6px;
+        text-transform: uppercase;
+    }
+    .Nav ul li .Address{
+        font-size: 9px;
+    }
+    .Nav .fas.fa-circle{
+        color: #00FF00;
+        font-size: 7px;
+    }
+    .Nav .fab.fa-bitcoin{
+        font-size: 11px;
+        color: #ffe9d9;
+    }
+    .Nav .fab.fa-whatsapp{
+        font-size: 11px;
+        color: #ffe9d9;
+    }.Nav .fas.fa-map-marker-alt{
+         font-size: 11px;
+         color: #faf7f0;
+     }
+    .Nav .fas.fa-chevron-right{
+        font-size: 11px;
+        color: #ffe9d9;
+    }
+    .Navbar{
+        color: #e06002;
+        background-color: #ffffff;
+        padding: 15px 10px;
+    }
+    .Navbar .img-fluid{
+        width: 4%;
+        margin-right: 5px;
+        margin-top: 5px;
+
+    }
+    .Navbar .Brand{
+        font-size: 16px;
+    }
+    .Navbar .Brand .Exchange{
+        color: #f67906;
+    }
+    .Navbar .Nav-Link{
+        color: #f67906 !important;
+        font-weight: 700;
+        font-size: 13px;
+
+    }
+}
