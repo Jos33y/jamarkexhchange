@@ -11,7 +11,7 @@ const Header = () => {
                     <li><i className="fas fa-chevron-right"></i> </li>
                     <li><i className="fas fa-circle"></i> USDT 521/$</li>
                     <li><i className="fab fa-bitcoin"></i> 519/$</li>
-                    <li><i className="fab fa-whatsapp"></i> <a href="tel:+2349067551041"> 0906 755 1041</a> </li>
+                    <li><i className="fab fa-whatsapp"></i> <a href="tel:+2349067551041"> 09067551041</a> </li>
                     <li><i className="fas fa-map-marker-alt"></i> <span className="Address"> Festac Lagos State</span> </li>
                 </ul>
             </div>
