@@ -47,7 +47,9 @@
     background: transparent;
     border: 2px solid #ffffff;
 }
-
+.Section-one{
+    margin: 3% 0;
+}
 .Head-text{
     font-size: 50px;
     font-weight: 600;
@@ -267,55 +269,6 @@
 }
 
 @media only screen and (max-width: 900px) {
-
-    .Hero{
-        padding: 20px;
-        margin-bottom: 5%;
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        object-fit: cover;
-        color: #ffffff;
-    }
-    .Text{
-        padding: 40px 120px 40px 0px;
-    }
-    .Text h6{
-        font-size: 16px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-align: justify;
-        line-height: 35px;
-        color: #ffffff;
-    }
-
-    .Text h5{
-        color: #ffffff;
-        font-weight: 800;
-        font-size: 40px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        margin: 50px 0;
-    }
-    .Text .Exchange{
-        font-weight: 700;
-    }
-    .Text .btn{
-        font-size: 30px;
-        font-weight: 700;
-        background: #228B22;
-        border-radius: 15px;
-        border: 2px solid #228B22;
-        width: 120%;
-        padding: 10px 0;
-        margin: 30px 0;
-    }
-    .Text .btn:hover{
-        background: transparent;
-        border: 2px solid #ffffff;
-    }
-
     .Head-text{
         font-size: 50px;
         font-weight: 600;
@@ -536,10 +489,397 @@
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 601px) {
+    .Section-one{
+        margin: 10% 0;
+    }
+    .Head-text{
+        font-size: 28px;
+    }
+    .Sub-text{
+        font-size: 14px;
+        margin-bottom: 5%;
+    }
+    .Box{
+        padding: 20px;
+        text-align: center;
+    }
+    .Box-im{
+        width: 70%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .Box-header{
+        font-size: 19px;
+    }
+    .Box-text{
+        font-size: 12px;
+    }
+
+    .Section-two{
+        margin: 3% 0;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .Section-two h5{
+        font-size: 16px;
+        font-weight: 500;
+        margin: 10px;
+    }
+
+    .Section-two .btn{
+        margin: 15px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 0px;
+        background: #e06002;
+        border: 1px solid #e06002;
+        padding: 10px 15px;
+    }
+    .Section-two .btn .fas{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .Section-three{
+        margin: 3% 0;
+        padding: 30px;
+    }
+    .Section-three h4{
+        margin-top: 5%;
+        font-size: 24px;
+        margin-bottom: 5%;
+    }
+
+    .Section-three p{
+        font-size: 13px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    .Section-three .btn{
+        margin: 10px 0px;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .Section-three .btn .fas{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .Section-three .img-fluid{
+        margin-top: 10px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .Section-four{
+        margin: 3% 0;
+        padding: 20px;
+    }
+
+    .Section-four h3{
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 5%;
+    }
+    .Table{
+        margin-top: 0;
+        padding: 10px;
+    }
+    .Table thead th{
+        font-size: 16px;
+    }
+    .Table tbody td{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .Form {
+        padding: 10px;
+    }
+    .Form .form-group{
+        margin-bottom: 15px;
+    }
+    .Form label{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .Form input.form-control{
+        height: 35px;
+        font-size: 12px;
+    }
+    .Form textarea.form-control{
+        border-radius: 0px;
+        padding: 5px;
+        border: 1px solid #808080;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .Form .btn-success{
+        font-size: 14px;
+        padding: 10px 20px;
+        width: 50%;
+    }
+    .Section-five{
+        margin: 5% 0;
+        padding: 10px;
+    }
+
+    .Section-five h4{
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 5%;
+    }
+    .Testimony{
+        background: #ffe9d9;
+        text-align: center;
+        padding: 20px 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .Testimony .Testimony-text p{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .Testimony .Profile .Round-profile{
+        width: 80%;
+        border-radius: 50%;
+        margin-left: 20px;
+        border: 2px solid #e06002;
+    }
+    .Testimony .Profile h6{
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 10px;
+        float: left;
+    }
+
+    .Section-live h3{
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 8%;
+    }
 
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 385px) {
+    .Head-text{
+        font-size: 50px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #e06002;
+        text-align: center;
+    }
+    .Sub-text{
+        font-size: 17px;
+        text-align: center;
+        font-weight: 500;
+        color: #e06002;
+        margin-bottom: 5%;
+    }
+
+    .Box{
+        padding: 20px;
+    }
+    .Box-im{
+        width: 60%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .Box-header{
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        color: #e06002;
+    }
+    .Box-text{
+        font-size: 14px;
+        font-weight: 400;
+        color: #e06002;
+        text-align: center;
+    }
+    .Section-two{
+        margin: 3% 0;
+        padding: 40px;
+        background: #f3af1e;
+        color: #ffffff;
+    }
+
+    .Section-two h5{
+        font-size: 22px;
+        font-weight: 500;
+        margin: 30px;
+    }
+
+    .Section-two .btn{
+        margin: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 0px;
+        background: #e06002;
+        border: 1px solid #e06002;
+        padding: 15px 20px;
+    }
+    .Section-two .btn .fas{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .Section-three h4{
+        margin-top: 10%;
+        font-size: 28px;
+        font-weight: 600;
+        color: #e06002;
+        letter-spacing: 1px;
+        margin-bottom: 5%;
+    }
+
+    .Section-three{
+        margin: 3% 0;
+        padding: 40px;
+    }
+    .Section-three p{
+        font-size: 14px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    .Section-three .btn{
+        margin: 20px 0px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 0px;
+        background: #e06002;
+        border: 1px solid #e06002;
+        padding: 10px 20px;
+    }
+    .Section-three .btn .fas{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .Section-three .img-fluid{
+        margin-top: 0;
+        padding-top: 0;
+        width: 90%;
+        margin-left: 30%;
+    }
+
+    .Section-four{
+        margin: 3% 0;
+        padding: 40px;
+    }
+
+    .Section-four h3{
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        color: #e06002;
+        letter-spacing: 1px;
+        margin-bottom: 5%;
+    }
+    .Table{
+        margin-top: 10%;
+        padding: 40px;
+    }
+    .Table thead th{
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #e06002;
+        font-weight: 700;
+        text-align: center;
+    }
+    .Table tbody td{
+        font-size: 16px;
+        text-transform: uppercase;
+        padding-left: 20px;
+    }
+    .Table tbody td.Strong{
+        font-weight: 700;
+    }
+    .Table tbody td.Soft{
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .Form {
+        padding: 40px;
+    }
+    .Form .form-group{
+        margin-bottom: 20px;
+    }
+    .Form label{
+        font-weight: 700;
+        font-size: 16px;
+        color: #e06002;
+        margin-bottom: 10px;
+    }
+    .Form input.form-control{
+        height: 40px;
+        border-radius: 0px;
+        padding: 5px;
+        border: 1px solid #808080;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .Form textarea.form-control{
+        border-radius: 0px;
+        padding: 5px;
+        border: 1px solid #808080;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .Form .btn-success{
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 0px;
+        background: #e06002;
+        border: 1px solid #e06002;
+        padding: 10px 20px;
+        width: 50%;
+    }
+    .Section-five{
+        margin: 3% 0;
+        padding: 40px;
+    }
+
+    .Section-five h4{
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        color: #e06002;
+        letter-spacing: 1px;
+        margin-bottom: 5%;
+    }
+    .Testimony{
+        background: #ffe9d9;
+        text-align: center;
+        padding: 20px 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .Testimony .Testimony-text p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .Testimony .Profile .Round-profile{
+        width: 90%;
+        border-radius: 50%;
+        border: 2px solid #e06002;
+    }
+    .Testimony .Profile h6{
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 15px;
+        float: left;
+    }
+
+    .Section-live h3{
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        color: #e06002;
+        letter-spacing: 1px;
+        margin-bottom: 2%;
+    }
 
 }

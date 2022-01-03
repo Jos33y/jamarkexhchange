@@ -220,10 +220,10 @@ const Home = () =>  {
                                     </p>
                                 </div>                                <div className="Profile">
                                     <Row>
-                                        <Col md={3}>
+                                        <Col md={3} className="col-3">
                                             <img src={ImageTwo} alt="profile" className="Round-profile"/>
                                         </Col>
-                                        <Col md={9}>
+                                        <Col md={9} className="col-9">
                                             <h6>Jude Johnson</h6>
                                         </Col>
                                     </Row>
